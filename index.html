@@ -1,5 +1,50 @@
+<!DOCTYPE html>
 <html>
+<head>
+<style>
+html {
+  height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background: rgb(255,61,65);
+	background-image: radial-gradient(circle, rgba(255,61,65,1) 0%, rgba(0,0,0,1) 71%);
+}
+
+div.imageContainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 150px;
+}
+
+#displayText{
+	text-shadow: 2px 2px 5px white;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size: 30px;
+}
+
+</style>
+
+</head>
 <body>
-<center> Hello People from git!</center>
+<div class="maindiv">
+	<div class="imageContainer">
+		<img id="image" src="giphy.webp"/>
+		<p id="displayText">WORK IN PROGRESS</p>
+	</div>
+</div>
 </body>
 </html>
